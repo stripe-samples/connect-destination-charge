@@ -1,5 +1,5 @@
 {
-  "name": "connect-destination-charge"-
+  "name": "connect-destination-charge",
   "configureDotEnv": true,
   "integrations": [
     {
