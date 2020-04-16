@@ -104,7 +104,7 @@ app.post('/webhook', bodyParser.raw({type: 'application/json'}), (req, res) => {
   try {
     event = stripe.webhooks.constructEvent(req.body, sig, process.env.STRIPE_WEBHOOK_SECRET);
   } catch (err) {
-    return response.status(400).send(`Webhook Error: ${err.message}`);
+    return res.status(400).send(`Webhook Error: ${err.message}`);
   }
 
   if (event.type === 'payment_intent.succeeded') {
