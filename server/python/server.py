@@ -42,6 +42,7 @@ def calculate_order_amount(items):
 
 
 def calculate_application_fee_amount(amount):
+    # Take a 10% cut.
     return int(.1 * amount)
 
 

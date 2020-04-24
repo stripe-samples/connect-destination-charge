@@ -37,6 +37,7 @@ const calculateOrderAmount = (items) => {
     return 1400
 }
 
+// Take a 10% cut.
 const calculateApplicationFeeAmount = (amount) => .1 * amount;
 
 app.post('/create-payment-intent', async (req, res) => {

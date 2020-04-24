@@ -31,8 +31,8 @@ def calculate_order_amount(items)
   1400
 end
 
-
 def calculate_application_fee_amount(amount)
+  # Take a 10% cut.
   (0.1 * amount).to_i
 end
 

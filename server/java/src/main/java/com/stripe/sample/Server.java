@@ -69,6 +69,7 @@ public class Server {
     }
 
     private static int calculateApplicationFeeAmount(int amount) {
+        // Take a 10% cut.
         return (int) (0.1 * amount);
     }
 
