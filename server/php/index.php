@@ -62,7 +62,7 @@ $app->get('/recent-accounts', function (Request $request, Response $response, ar
 });
 
 $app->get('/express-dashboard-link', function (Request $request, Response $response, array $args) {
-  extract($request->getQueryParams());
+  $account_id = $request->getQueryParam('account_id');
   $link = \Stripe\Account::createLoginLink(
     $account_id,
     ['redirect_url' => $request->getUri()->getBaseUrl()]
