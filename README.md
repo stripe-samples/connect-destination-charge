@@ -3,10 +3,6 @@
 This Stripe sample shows you how to process a Connect [destination charge](https://stripe.com/docs/connect/destination-charges) using Stripe elements.
 Before using this sample, you should have onboarded at least one Connect account. For more about onboarding accounts and making Connect charges, read our [step-by-step Connect guide](https://stripe.com/docs/connect/collect-then-transfer-guide#accept-payment).
 
-Demo url: https://w3ktt.sse.codesandbox.io/
-
-Sandbox url: https://codesandbox.io/s/connect-destination-charge-w3ktt
-
 ![demo](.readme/screenshot.png)
 
 ## How to run locally
