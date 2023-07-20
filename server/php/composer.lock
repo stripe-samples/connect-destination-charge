@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "8d46cce7e553f811e4dd3cb5405b15fe",
+    "content-hash": "daafdeca1faee7c29a83480a8ad7f83f",
     "packages": [
         {
             "name": "monolog/monolog",
@@ -475,16 +475,16 @@
         },
         {
             "name": "stripe/stripe-php",
-            "version": "v9.9.0",
+            "version": "v10.17.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/stripe/stripe-php.git",
-                "reference": "479b5c2136fde0debb93d290ceaf20dd161c358f"
+                "reference": "73383b44de153f4d602b90dad3ef075259bcecef"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/stripe/stripe-php/zipball/479b5c2136fde0debb93d290ceaf20dd161c358f",
-                "reference": "479b5c2136fde0debb93d290ceaf20dd161c358f",
+                "url": "https://api.github.com/repos/stripe/stripe-php/zipball/73383b44de153f4d602b90dad3ef075259bcecef",
+                "reference": "73383b44de153f4d602b90dad3ef075259bcecef",
                 "shasum": ""
             },
             "require": {
@@ -528,7 +528,7 @@
                 "payment processing",
                 "stripe"
             ],
-            "time": "2022-11-08T20:25:52+00:00"
+            "time": "2023-07-13T22:12:18+00:00"
         },
         {
             "name": "symfony/polyfill-ctype",
